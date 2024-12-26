@@ -1,5 +1,5 @@
 def setup():
-    size(2560, 1440)
+    fullScreen()  # size(2560, 1440)
     background(0)
     global peace_sign
     peace_sign = loadShape("peace.svg")
